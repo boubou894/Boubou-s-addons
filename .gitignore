@@ -1,0 +1,39 @@
+# --- Secrets : ne JAMAIS commiter ---
+config.json
+.env
+*.pem
+*.key
+
+# --- Données locales générées ---
+*.sqlite
+*.sqlite-journal
+*.db
+*.log
+debug/
+__pycache__/
+*.pyc
+
+# Données de prix générées par les scripts (régénérées sur chaque PC)
+**/Data/Prices.lua
+**/Data/CJ.lua
+**/Data/Names.lua
+
+# SavedVariables et dossiers de WoW
+WTF/
+SavedVariables/
+
+# Paquets et builds
+dist/
+*.zip
+
+# Synchro et quarantaine
+sync/
+rejetes/
+_to_delete/
+
+# Système / éditeurs
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
